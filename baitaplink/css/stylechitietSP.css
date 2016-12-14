@@ -1,0 +1,11 @@
+#anh1{
+	text-align:center;
+	height:300px;
+	width:300px;
+}
+#ct1{
+	text-indent:70px;
+}
+b::after{
+	content: " VND";
+}
