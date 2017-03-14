@@ -33,912 +33,150 @@ body{
 }
 
 
-	@media screen and (min-width:1768px){
-		.navbar-inverse{
-			width: 64%;
-    margin-left: 314px;
-		}
-		
-	}
-@media screen and (min-width:2652px){
-	.navbar-inverse{
-			width: 44%;
-    margin-left: 744px
-	}
+	
 	
 }
-@media screen and (min-width: 769px){
-                    #home {
-						margin-left: 40px;
-					}
-					#menu1 {
-						margin-left: 40px;
-					}
-					#menu2 {
-						margin-left: 40px;
-					}
-                    #home .content11{
-                        margin-left: 30px;
-						margin-bottom:60px;
-						width: 150px; 
-                        height: 150px;
-						float: left;						
-                    }
-					#menu1 .content11{
-                        margin-left: 36px;
-						margin-bottom:60px;
-						width: 150px; 
-                        height: 150px;
-						float: left;						
-                    }
-					#menu2 .content11{
-                        margin-left: 36px;
-						margin-bottom:60px;
-						width: 150px; 
-                        height: 150px;
-						float: left;						
-                    }
-					
-					.thumbnail6{
-						padding:0 0 15px 0;
-						margin-left: 20px;
-						margin-top: 42px;
-				
-					}
-					.thumbnail6 .anh6{
-						    margin-left: 0px;
-						width:100%;
-					}
-			.thumbnail7{
-                padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-				    margin-top: 20px;
-			}
-			.noidung7{
-				margin-left:20px;
-			}
-            .thumbnail7 .anh7{
-                width: 75%;
-                height: 100%;
-                margin-bottom: 10px;
-                margin-left: 20px;
-            }
-            .thumbnail8{
-               padding:0 0 15px 0;
-              background-color: whitesmoke;
-             margin-left: 20px;
-                margin-top: 20px;
-            }
-            .thumbnail8 .anh8{
-                width: 100%;
-                height: 100%;
-                margin-bottom: 10px;
-            }
+/* @media screen and (max-width: 320px){ */
+	/* #home{ */
+		/* margin-left:40px; */
+	/* } */
+	
+	 /* #home .content11 */
+	 /* { */
+       /* margin-left: 13px; */
+		/* width: 100px;  */
+        /* height: 100px; */
+		/* margin-bottom:80px; */
+		/* float: left;	 */
+         /* } */
+/* #menu1 .content11 */
+	 /* { */
+       /* margin-left: 13px; */
+		/* width: 100px;  */
+        /* height: 100px; */
+		/* margin-bottom:80px; */
+		/* float: left;	 */
+         /* } */
+ /* #menu2 .content11 */
+	 /* { */
+       /* margin-left: 13px; */
+		/* width: 100px;  */
+        /* height: 100px; */
+		/* margin-bottom:80px; */
+		/* float: left;	 */
+         /* } */
+	/* .thumbnail>img{ */
+		/* width: 70%; */
+    /* height: 80%; */
+    /* margin-bottom: 10px; */
+	/* } */
 
-            .thumbnail9{
-                 padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-            .thumbnail9 .anh9{
-                width: 100%;
-                height: 100px;
-                margin-bottom: 10px;
-                margin-left: 54px;
-            }
-            .thumbnail10{
-                padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-			.tieude10{
-				margin-left:20px;
-			}
-			.tieude7{
-				margin-left:30px;
-				
-			}
-			.baiviet1{
-				margin-top:20px;
-			}
-			.baiviet2{
-				margin-top:40px;
-			}
-			#home{
-				margin-left: 36px;
-			}
-			.soluotxem{
-                width:264px;
-                height:100px;
-                background-color:#f94a13;
-                 margin-top:40px;
-                margin-left: 25px;
-                text-align: left;
-            }
-			.lib_img img{
-				float:left;
-				margin-left:10px;
-				margin-top:20px;
-				}
-			
-			.calendar{
-				margin-left:15px;
-				margin-top:20px;
-				
-			}
-			.border_content{
-				border-bottom:1px solid whitesmoke;
-			}
-			 .affix {
-				top: 0;
-				width: 100%;
-				z-index:1;
-			}
-
-		  .affix + .container-fluid {
-			  padding-top:100px;
-		  }
-		#timkiem{
-			margin-left:2px;
-			margin-top:5px;
-			
-		}
-		.btn_search{
-			height:27px;
-			margin-bottom:4px;
-		}
-		.icon_banner{
-			margin-left:-10px;
-			margin-top:10px;
-			margin-bottom:20px;
-			
-		}
-		#banner11{
-    font-family: 'inconsolata';
-	margin-top: 10px;
-    margin-left: 0px;
+	
+/* } */
+	
+/*CSS phần banner*/
+#timkiem{
+	margin-top:-20px;
 }
-		.span2{
-                font-size: 23px;
-                color:#ec4009;
-            }
-
-		.icon_banner .face:hover{
-				-ms-transform: rotate(360deg);
-				-webkit-transform: rotate(360deg);
-				transform: rotate(360deg);
-				transition: 1s;
-
-			}
-			
-			/*CSS cho phần đăng nhập*/
-
-/****** LOGIN MODAL ******/
-.loginmodal-container {
-  padding: 30px;
-  max-width: 350px;
-  width: 100% !important;
-  background-color: #F7F7F7;
-  margin: 0 auto;
-  border-radius: 2px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  font-family: roboto;
+.banner_gioithieu{
+	margin-top:20px;
 }
-
-.loginmodal-container h1 {
-  text-align: center;
-  font-size: 1.8em;
-  font-family: roboto;
+.banner11{
+	margin-left:8px;
 }
-
-.loginmodal-container input[type=submit] {
-  width: 100%;
-  display: block;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.loginmodal-container input[type=text], input[type=password] {
-  height: 44px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  background: #fff;
-  border: 1px solid #d9d9d9;
-  border-top: 1px solid #c0c0c0;
-  /* border-radius: 2px; */
-  padding: 0 8px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-.loginmodal-container input[type=text]:hover, input[type=password]:hover {
-  border: 1px solid #b9b9b9;
-  border-top: 1px solid #a0a0a0;
-  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-}
-
-.loginmodal {
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-  height: 36px;
-  padding: 0 8px;
-/* border-radius: 3px; */
-/* -webkit-user-select: none;
-  user-select: none; */
-}
-
-.loginmodal-submit {
-  /* border: 1px solid #3079ed; */
-  border: 0px;
-  color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.1); 
-  background-color: #4d90fe;
-  padding: 17px 0px;
-  font-family: roboto;
-  font-size: 14px;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
-}
-
-.loginmodal-submit:hover {
-  /* border: 1px solid #2f5bb7; */
-  border: 0px;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
-}
-
-.loginmodal-container a {
-  text-decoration: none;
-  color: #666;
-  font-weight: 400;
-  text-align: center;
-  display: inline-block;
-  opacity: 0.6;
-  transition: opacity ease 0.5s;
-} 
-
-.login-help{
-  font-size: 12px;
-}
-		
-		
-		
-}
-		
-		
-		
-		
-		/*ket thuc mediaquery man hinh lon*/
-@media  screen and (max-width: 768px){
-										
-                    #home .content11{
-                        margin-left: 39px;
-						margin-bottom:60px;
-						width: 100px; 
-                        height: 100px;
-						float: left;						
-                    }
-					#menu1 .content11{
-                        margin-left: 56px;
-						margin-bottom:60px;
-						width: 100px; 
-                        height: 100px;
-						float: left;						
-                    }
-					#menu2 .content11{
-                        margin-left: 56px;
-						margin-bottom:60px;
-						width: 100px; 
-                        height: 100px;
-						float: left;						
-                    }
-					
-					/*phan bai viet*/
-					.thumbnail6{
-						padding:0 0 15px 0;
-						background-color: whitesmoke;
-						margin-left: 20px;
-						margin-top: 20px;
-				
-					}
-					.thumbnail6 .anh6{
-						margin-left: -9px;
-						width:100%;
-					}
-					
-					.thumbnail7{
-						padding:0 0 15px 0;
-						background-color: whitesmoke;
-						margin-left: 20px;
-						margin-top: 20px;
-					}
-					
-					.thumbnail7 .anh7{
-						width: 75%;
-						height: 100%;
-						margin-bottom: 10px;
-						margin-left: 20px;
-					}
-					.tieude7{
-						margin-left:30px;				
-					}
-					
-					.soluotxem{
-						width:264px;
-						height:100px;
-						background-color:#f94a13;
-						margin-top:40px;
-						margin-left: 25px;
-						text-align: left;
-					}
-					
-					.thumbnail8{
-               padding:0 0 15px 0;
-              background-color: whitesmoke;
-             margin-left: 20px;
-                margin-top: 20px;
-            }
-            .thumbnail8 .anh8{
-                width: 100%;
-                height: 100%;
-                margin-bottom: 10px;
-            }
-
-            .thumbnail9{
-                 padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-            .thumbnail9 .anh9{
-                width: 100%;
-                height: 100px;
-                margin-bottom: 10px;
-                margin-left: 54px;
-            }
-            .thumbnail10{
-                padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-			.tieude10{
-				margin-left:20px;
-			}
-			.tieude7{
-				margin-left:30px;
-				
-			}
-			.baiviet1{
-				margin-top:20px;
-			}
-			.baiviet2{
-				margin-top:40px;
-			}
-			#home{
-				margin-left: 36px;
-			}
-			.lib_img img{
-				float:left;
-				margin-left:10px;
-				margin-top:20px;
-				}
-			
-                
-    }
-@media screen and (max-width: 320px){
-					#home {
-    margin-left: 27px;
-}
-                    #home .content11{
-                        margin-left: 13px;
-						width: 100px; 
-                        height: 100px;
-						margin-bottom:80px;
-						float: left;
-						
-                    }
-					#menu1 .content11{
-                        margin-left: 26px;
-						width: 100px; 
-                        height: 100px;
-						margin-bottom:80px;
-						float: left;
-						
-                    }
-					#menu2 .content11{
-                        margin-left: 26px;
-						width: 100px; 
-                        height: 100px;
-						margin-bottom:80px;
-						float: left;
-						
-                    }
-                   
-					.thumbnail6{
-						padding:0 0 15px 0;
-						background-color: whitesmoke;
-						margin-left: 20px;
-						margin-top: 20px;
-				
-					}
-					.thumbnail6 .anh6{
-						margin-left: -9px;
-						width:100%;
-					}
-			.thumbnail7{
-                padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-				    margin-top: 20px;
-			}
-			.noidung7{
-				margin-left:20px;
-			}
-            .thumbnail7 .anh7{
-                width: 75%;
-                height: 100%;
-                margin-bottom: 10px;
-                margin-left: 20px;
-            }
-            .thumbnail8{
-               padding:0 0 15px 0;
-              background-color: whitesmoke;
-             margin-left: 20px;
-                margin-top: 20px;
-            }
-            .thumbnail8 .anh8{
-                width: 100%;
-                height: 100%;
-                margin-bottom: 10px;
-            }
-
-            .thumbnail9{
-                 padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-            .thumbnail9 .anh9{
-                width: 100%;
-                height: 100px;
-                margin-bottom: 10px;
-                margin-left: 54px;
-            }
-            .thumbnail10{
-                padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: 20px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-			.tieude10{
-				margin-left:20px;
-			}
-			.tieude7{
-				margin-left:30px;
-				
-			}
-			.baiviet1{
-				margin-top:20px;
-			}
-			.baiviet2{
-				margin-top:40px;
-			}
-			#home{
-				margin-left: 36px;
-			}
-			.soluotxem{
-                width:264px;
-                height:100px;
-                background-color:#f94a13;
-                 margin-top:40px;
-                margin-left: 25px;
-                text-align: left;
-            }
-			.lib_img img{
-				float:left;
-				margin-left:5px;
-				margin-top:10px;
-				}
-				div #banner {
-					margin-top: 11px;
-					margin-left: 49px;
-				}
-				
-							/*CSS cho phần đăng nhập*/
-
-/****** LOGIN MODAL ******/
-.loginmodal-container {
-  padding: 30px;
-  
-  width: 80% !important;
-  background-color: #F7F7F7;
-  margin: 0 auto;
-  border-radius: 2px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  font-family: roboto;
-}
-
-.loginmodal-container h1 {
-  text-align: center;
-  font-size: 1.8em;
-  font-family: roboto;
-}
-
-.loginmodal-container input[type=submit] {
-  width: 100%;
-  display: block;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.loginmodal-container input[type=text], input[type=password] {
-  height: 44px;
-  font-size: 16px;
-  width: 100%;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  background: #fff;
-  border: 1px solid #d9d9d9;
-  border-top: 1px solid #c0c0c0;
-  /* border-radius: 2px; */
-  padding: 0 8px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-.loginmodal-container input[type=text]:hover, input[type=password]:hover {
-  border: 1px solid #b9b9b9;
-  border-top: 1px solid #a0a0a0;
-  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-}
-
-.loginmodal {
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-  height: 36px;
-  padding: 0 8px;
-/* border-radius: 3px; */
-/* -webkit-user-select: none;
-  user-select: none; */
-}
-
-.loginmodal-submit {
-  /* border: 1px solid #3079ed; */
-  border: 0px;
-  color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.1); 
-  background-color: #4d90fe;
-  padding: 17px 0px;
-  font-family: roboto;
-  font-size: 14px;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
-}
-
-.loginmodal-submit:hover {
-  /* border: 1px solid #2f5bb7; */
-  border: 0px;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
-  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
-}
-
-.loginmodal-container a {
-  text-decoration: none;
-  color: #666;
-  font-weight: 400;
-  text-align: center;
-  display: inline-block;
-  opacity: 0.6;
-  transition: opacity ease 0.5s;
-} 
-
-.login-help{
-  font-size: 12px;
-}
-
-					
-					
-        }
-	/*ket thuc media query*/
-                .carousel-inner img{
-                    width: 100%;
-                    min-height: 200px;
-                }
-                .thumbnail{
-                    margin-top:20px;
-                    border-radius: 0;
-					/*them cho phần overlay*/
-					position:relative;				
-                }
-				.anhsp1{
-					display:block;
-					width:100%;
-					height:auto;
-				}
-				.overlay{
-					position:absolute;
-					bottom:100%;
-					left:0;
-					right:0;
-					background-color:#008CBA;
-					overflow:hidden;
-					width:100%;
-					height:0;
-					transition: .5s ease;					
-				}
-				.thumbnail:hover .overlay{
-					bottom:0;
-					height:100%;
-					background-color:red;
-					
-				}
-				.text{
-					white-space:nowrap;
-					color:white;
-					font-size:20px;
-					position:absolute;
-					overflow:hidden;
-					top:50%;
-					left:50%;
-					transform: translate(-50%, -50%);
-					-ms-transform: translate(-50%, -50%);
-				}
-            .thumbnail img{
-                width: 70%;
-                height: 100%;
-                margin-bottom: 10px;
-            }
-            .thumbnail2{
-                background-color: greenyellow;
-                width: 100%;
-                height: 300px;
-            }
-            .thumbnail2 img{
-               width: 70%;
-                height: 100%;
-                margin: 5px;
-            }
-            .navbar-inverse{
+/*CSS phần menu chính*/
+.navbar-inverse{
                 background-color: red;
             }
-            .navbar-inverse .navbar-nav>li>a {
-                color: #151313;
-            }
-
-            .contact{
-                margin-right: 20px;
-                float:left;
-            }
-            .banner{
-                float:left;
-            }
-            .span1{
-                font-size:24px;
-                color:#ff4a11;
-            }
-            
-            .span3{
-                font-size:20px;
-                color:#f94a13;
-            }
-            #myNavbar li a {
-                border-radius: 0px;
-                    margin-bottom: -15px;
-            }
-             ul .nav-pills {
-                list-style-type: circle;
-            }
-
-            ul.menu2{
-                    position: absolute;
-                    left: 450px;
-                    }
-            .nav-tabs>li{
-                background-color: #f94a13;
-
-            }
-                .nav>li>a:hover {
-                    text-decoration: none;
-                    background-color: pink;
-                }
-				.nav>li>a:visited {
-					color: green;
-				}
-            #myNavbar li a{
-                color:white;
-                font-size:15px;
-                
-
-            }
-            #myNavbar ul{
-                margin-top:  4px;
-            }
-			#myNavbar ul li a{
-				color:black;
-			}
-				#myNavbar li:last-child a {
-                    border-right: 0;
-                }
-            .noidung{
-                border: 1px solid grey;
-                box-sizing: border-box;
+.navbar-inverse li a{
+	color:white;
+}		
+/*CSS phần Carousel*/
+	 .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  .noidung{
+     border: 1px solid grey;
+     box-sizing: border-box;
+	 margin-top:80px;
+	 background-color:whitesmoke;
 				
-            }
-			.noidung1{
-                				height:auto;
-            }
-            #myNavbar2 li a{
-                margin-bottom: -15px;
-                color:white;
-            }
-            ul.myNav2{
-                list-style-type:square;
-            }
-           #myCarousel {
-				margin-top: 15px;
-				margin-bottom:15px;
-		   }
-			#myNavbar2 li{
-				margin-bottom: 0px;
-				padding-bottom: 10px;
-				padding-top: 10px;		
-			}
-			#myNavbar2 {
-			background-color:#f94a13;
-			border-radius:10px;
-			color:white;
-			}
-            /*Menu cho phan vai viet*/
-            #myNavbar22{
-                background-color:#f94a13;
-                border-radius:10px;
-                color:white;
-                margin-top: 40px;
-            }
-            #myNavbar22 li{
-                margin-bottom:0px;
-                padding-bottom: 10px;
-                padding-top:10px;
-            }
-#myNavbar22 li a{
-    color:white;
-
+   }
+/*CSS phần Carousel*/
+/*CSS cho phần nội dung và sản phẩm*/
+.noidung1{
+	margin-top:30px;
 }
-			.danhmuc{
-				color:#f94a13;
-			}
-			#submenu1{
-				background-color:#fb440a;
-				position:absolute;
-				top:50px;
-				left:200px;
-		
-			}
-			#submenu1 li{
-				margin-bottom:10px;
-			}
-			#myNavbar{
-				position:relative;
-			}
-			.hienthi{
-				background-color:white;
-			}
-			#myNavbar1 ul{
-				margin-top:4px;				
-			}
-			#myNavbar1 ul li a{
-				color:black;
-			}
-			#myNavbar1 ul li a:hover {
-				background-color:red;
-			}
-/*CSS phan qunag cao*/
-			.quangcao1{
-				width:250px;
-				height:300px;
-				margin-top:30px;
-				margin-left:20px;
-				
-			}
-			.quangcao2{
-				width:264px;
-				height:250px;
-				margin-top:10px;
-				background-color:whitesmoke;
-				margin-left:10px;
-			}
-			.tieude{
-				margin-left:30px;
-				margin-top:20px;
-				color:#fb440a;
-			}
-/*CSS cho phan bai viet*/
-			
-            /*CSS phan carosel bai viet*/
-            #myCarousel1{
-                padding:0 0 15px 0;
-                background-color: whitesmoke;
-                margin-left: -14px;
-                margin-top: 20px;
-                height: 247.08px;
-            }
-			#myCarousel1 img{
-				border-radius:10px;
-			}
-            
-            .video{
-                margin-left: 2px;
-                margin-top: -2px;
-            }
-			/*CSS cho phần footer*/
-			.footer{
-				height: 380px;
-				background-color: whitesmoke;
-			}
-			.lib{
-				background-color:whitesmoke;
-			}
-			.thumbnail11 img{
+ 	
+  #myNavbar2{
+	  margin-top:3px;
+	  background-color:red;
+  }
+  #myNavbar2 >li>a{
+	  color:white;
+  }
+ #myNavbar2 li{
+	    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+ }
+  
+  /*Css cho phần footer*/
+  .lib_img img{
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+	}
+	.thumbnail11 img{
 				width:20%;
 				height:25%;
-			}
-			 
-				/*hieu ung cho cac the div*/
-			.slideanim{
-				visibility:hidden;
-			}
-			.slide{
-				animation-name:slide;
-				-webkit-animation-name:slide;
-				animation-duration:2s;
-				-webkit-animation-duration:2s;
-				visibility: visible;
-			}
-			@keyframes slide{
-				0% {
-					opacity:0;
-					transform: translateY(70%);
-				}
-				100%{
-					opacity:1;
-					transform: translateY(0%);
-				}
-			}
-			@-webkit-keyframes slide{
-				0% {
-					opacity:0;
-					-webkit-transform: translateY(70%);
-				}
-				100%{
-					opacity:1;
-					-webkit-transform: translateY(0%);
-				}
-			}
-			
-	
-			
+	}
+/** CSS cho phần video*/		
+.video{
+	margin-top:50px;
+}
+
+	#home{
+		margin-left:60px;
+	}
+	#menu1{
+		margin-left:60px;
+	}
+	#menu2{
+		margin-left:60px;
+	}
+		 #home .content11
+	 {
+       margin-left: 20px;
+		width: 150px; 
+        height: 150px;
+		margin-bottom:80px;
+		float: left;	
+         }
+#menu1 .content11
+	 {
+       margin-left: 13px;
+		width: 150px; 
+        height: 150px;
+		margin-bottom:80px;
+		float: left;	
+         }
+ #menu2 .content11
+	 {
+       margin-left: 13px;
+		width: 150px; 
+        height: 150px;
+		margin-bottom:80px;
+		float: left;	
+         }
+	.thumbnail>img{
+		width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+	}	
+
 			
 			
 			
