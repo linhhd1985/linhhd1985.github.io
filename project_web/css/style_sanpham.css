@@ -1,0 +1,35 @@
+@media screen and (min-width: 769px){
+	
+.thumbnail_sanpham{	
+padding:0 0 15px 0;
+margin-left: 20px;
+margin-top: 20px;
+
+}
+.sanpham_ct{
+	border: 1px solid whitesmoke;
+    box-sizing: border-box;	
+	width:150px;
+	margin-left: 30px;
+}
+.thumbnail_sanpham  img{
+                width: 70%;
+                height: 100%;
+                margin-bottom: 10px;
+                margin-left: 10px;
+            }
+.noidung_sanpham{
+	height:auto;
+}
+.thumbnail_sanpham:hover{
+	opacity: 0.5;
+	width:110%;
+	
+}
+
+
+
+
+
+
+

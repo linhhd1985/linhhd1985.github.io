@@ -1,0 +1,15 @@
+@media screen and (min-width: 769px){
+.thumbnail_gt{
+padding:0 0 15px 0;
+background-color: whitesmoke;
+margin-left: 20px;
+margin-top: 42px;
+}
+.thumbnail_gt anh6{
+margin-left: 0px;
+width:100%;
+}
+.gioithieu{
+	margin-top:4px;
+}
+}
