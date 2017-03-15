@@ -4,14 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
         <link rel ="stylesheet" type="text/css"href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">  
+			
+		<link href="css/hover.css" rel="stylesheet" media="all" />
     </head>
     <body>
-	
+            <!------Load SDK Facebook------->
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=2024973137644095$appId=603551963181572";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
   
 </div>
     <header>
@@ -26,6 +38,14 @@
 				<div class="row">
 					<img src="img/img1.png" class="img-responsive">
 				</div>
+				<div class="row">
+					<form id="timkiem">
+						<input style="width:250px;margin-top:26px;"type="text" name="search"  placeholder="Nhập vào tên sp"/>
+						<button type="submit" class="btn btn-default btn-sm btn_search">
+						<span class="glyphicon glyphicon-search"></span> Search 
+						</button>
+					</form>				
+					</div>
 				
 			</div>
                 <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4" >
@@ -33,25 +53,18 @@
 						<div class="banner11" id="banner11">
 							<span class="span2">LÀNG NGHỀ LỤA CỔ TRUYỀN VẠN PHÚC</span><br>
 							<span class="span3 ">www.SilkVietNam.vn</span><br>		
-							<span style="color:#f94a13;"><i class="fa fa-whatsapp" style="font-size:24px; "></i> :  0946076717 - 04331233444</span>
-								<p style="color:#f94a13;"><i class="fa fa-envelope-o" style="font-size:24px"></i> :  manhlinh1985@gmail.com</p>	
+							<span style="color:#f94a13;"><i class="fa fa-whatsapp buzz" style="font-size:24px; "></i> :  0946076717 - 04331233444</span>
+								<p style="color:#f94a13;"><i class="fa fa-envelope-o buzz" style="font-size:24px"></i> :  manhlinh1985@gmail.com</p>	
 							<div class="icon_banner">
-								<a href="#"><i class="fa fa-facebook face" style="font-size:24px; margin-left:10px;color:#f94a13;"></i></a>
-								<a href="#"><i class="fa fa-google face" style="font-size:24px ; margin-left:10px;color:#f94a13;"></i></a>
-								<a href="#"><i class="fa fa-youtube face" style="font-size:24px ; margin-left:10px;color:#f94a13;"></i></a>
-								<a href="#"><i class="fa fa-twitter face" style="font-size:24px; margin-left:10px;color:#f94a13;"></i></a>	
+								<a href="#"><i class="fa fa-facebook face buzz" style="font-size:24px; margin-left:10px;color:#f94a13;"></i></a>
+								<a href="#"><i class="fa fa-google face buzz" style="font-size:24px ; margin-left:10px;color:#f94a13;"></i></a>
+								<a href="#"><i class="fa fa-youtube face buzz" style="font-size:24px ; margin-left:10px;color:#f94a13;"></i></a>
+								<a href="#"><i class="fa fa-twitter face buzz" style="font-size:24px; margin-left:10px;color:#f94a13;"></i></a>	
 								
 							</div>							
 						</div>						
 					</div>
-					<div class="row">
-					<form id="timkiem">
-						<input style="width:200px;margin-top:26px;"type="text" name="search"  placeholder="Nhập vào tên sp"/>
-						<button type="submit" class="btn btn-default btn-sm btn_search">
-						<span class="glyphicon glyphicon-search"></span> Search 
-						</button>
-					</form>				
-				</div>
+					
 					
                 </div>
             </div>
@@ -71,15 +84,15 @@
     </div>
     <div class="collapse navbar-collapse " id="myNavbar">
       <ul class="nav nav-pills nav-justified">
-        <li><a href="#">Trang Chủ</a></li>
+        <li><a href="index.html">Trang Chủ</a></li>
         <li ><a  href="gioithieu.html">Giới thiệu</a></li>
         <li class="dropdown"><a href="#">Sản Phẩm</a>
 			
 		</li>
         <li><a href="#">Doanh nghiep</a></li>
-          <li><a href="#">Tin Tức</a></li>
+          <li><a href="tintuc.html">Tin Tức</a></li>
           
-          <li><a href="#">Liên hệ</a></li>
+          <li><a href="lienhe.html">Liên hệ</a></li>
 		  <li>
 			<a href="#" data-toggle="modal" data-target="#login-modal">Đăng nhập</a>
 
@@ -172,7 +185,7 @@
                     </video>
                 </div>
 			</div>
-			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9" >
+			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9 slideanim" >
 				 <div class="row text-center">
 					<h4 class="danhmuc">SẢN PHẨM TIÊU BIỂU CỦA LÀNG NGHỀ</h4>
 					<hr>
@@ -201,56 +214,57 @@
 			<div class="tab-content">
 				<div id="home" class="tab-pane fade in active ">
                         <div class="content11">
-                            <div class="thumbnail text-center">
-                                <img src="img/img_6456_large.jpg" alt="baiviet1"  class="img-responsive anhsp1">
+                            <div class="thumbnail text-center float-shadow">
+                                <img src="img/img_6456_large.jpg" alt="baiviet1" style="width:100%" class="img-responsive anhsp1 ">
 								<p>Khăn Lụa</p>
                                 <p>Giá:</p>
                               </div>
+							
                         </div>
                         <div class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center pulse-shrink">
                                 <img src="img/img_6481_large.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center wobble-top">
                                 <img src="img/img_7003_large.png" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center wobble-horizontal">
                                 <img src="img/img_6779_large.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
 						<div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center wobble-horizontal">
                                 <img src="img/khan1.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center wobble-horizontal">
                                 <img src="img/khan2.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center wobble-horizontal">
                                 <img src="img/khan3.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center wobble-to-bottom-right">
                                 <img src="img/img_6481_large.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
@@ -262,28 +276,28 @@
 					<!-------------------------------->
 					<div id="menu1" class="tab-pane fade">
                          <div class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/non2.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/non3.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/non4.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/non5.jpg" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
@@ -292,28 +306,28 @@
                         </div>
 
 						<div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/img_6832_large.png" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/img_6848_large.png" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/img_6770_large.png" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
                             </div>
                         </div>
                         <div  class="content11">
-                            <div class="thumbnail text-center">
+                            <div class="thumbnail text-center outline-outward">
                                 <img src="img/img_6800_large.png" alt="baiviet1"  class="img-responsive">
                                 <p>Khăn Lụa</p>
                                 <p>Giá:</p>
@@ -389,9 +403,13 @@
 			</div>
 		</div>
 		<hr>
+		<div class="col-xs-12 col-md-12 col-lg-12 col-sm-12 text-center">
+			<p>BÀI VIẾT NỔI BẬT</p>
+		</div>
 		<div class="row noidung2">
-			<div class="col-xs-12 col-md-3 col-lg-3 col-sm-3>
-				<ul class="myNav2" id="myNavbar22" >
+			<div class="col-xs-12 col-md-3 col-lg-3 col-sm-3">
+				<div class="row">
+					<ul class="myNav2" id="myNavbar22" >
                     <li><a href="#">LÀNG LỤA HÀ ĐÔNG XƯA VÀ NAY</a></li>
                     <li><a href="#">HÀ ĐÔNG TẬP TRUNG CHO DU LỊCH LÀNG LỤA VẠN PHÚC</a></li>
                     <li><a href="#">LÀNG VẠN PHÚC KHAI TRƯƠNG THÊM  TRUNG TÂM LỤA</a></li>
@@ -401,6 +419,83 @@
                     <li><a href="#">LÀNG LỤA VẠN PHÚC - ĐIỂM SÁNG DU LỊCH TRONG LÒNG THỦ ĐÔ</a>
 
                 </ul>
+							<hr>
+				</div>
+				<!----------phần xem thêm-------------->
+				<div class="row">
+				<p>XEM THÊM</p>
+					<div class="row baiviet1 slideanim grow">
+							<div class="col-xs-6">
+								<div class="thumbnail_small">
+									<div class="anh_small">
+										<img src="img/130580488.jpg" alt="hinh bai viet 2" class="img-responsive">
+
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="tieude6_small" >
+									<p style="color: blue;">Hà đông tập trung cho làng Lụa vạn phúc<p>
+								</div>
+							</div>
+							
+
+					</div>
+					<div class="row baiviet1 slideanim grow">
+							<div class="col-xs-6">
+								<div class="thumbnail_small">
+									<div class="anh_small">
+										<img src="img/130581905.jpg" alt="hinh bai viet 2" class="img-responsive">
+
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="tieude6_small" >
+									<p style="color: blue;">Làng Vạn phúc khai trương thêm trung tâm lụa<p>
+								</div>
+							</div>
+							
+
+					</div>
+					<div class="row baiviet1 slideanim grow">
+							<div class="col-xs-6">
+								<div class="thumbnail_small">
+									<div class="anh_small">
+										<img src="img/3_lua_van_phuc_td-10_11_44_351.jpg" alt="hinh bai viet 2" class="img-responsive">
+
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="tieude6_small" >
+									<p style="color: blue;">Làng lụa vạn phúc điểm sáng du lịch trong lòng thủ đô<p>
+								</div>
+							</div>
+							
+
+					</div>
+					<div class="row baiviet1 slideanim grow">
+							<div class="col-xs-6">
+								<div class="thumbnail_small">
+									<div class="anh_small">
+										<img src="img/ANH.jpg" alt="hinh bai viet 2" class="img-responsive">
+
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="tieude6_small" >
+									<p style="color: blue;">Lụa vạn phúc gian nan gìn giữ giá trị<p>
+								</div>
+							</div>
+							
+
+					</div>
+				</div>
+				<!----------kết thúc phần xem thêm-------------->
+				
+	
 			</div>
 			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9">			
 				<div class="row slideanim ">
@@ -455,9 +550,9 @@
                     </div>
 			</div>
 			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9">
-				<div class="row baiviet1">
+				<div class="row baiviet1 slideanim">
 							<div class="col-md-6">
-								<div class="tieude7" >
+								<div class="tieude6" >
 									<p style="color: blue;">HÀ ĐÔNG TẬP TRUNG CHO DU LỊCH LÀNG LỤA VẠN PHÚC<p>
 									<p style="text-indent:40px;">Trong những năm qua, ngành Du lịch Hà Nội, Đảng bộ, chính quyền và nhân dân quận Hà Đông đã nhận thức tiềm năng, lợi thế về du lịch của địa phương để lãnh đạo, chỉ đạo tập trung đầu tư bằng nguồn lực của địa phương, vận động, tuyên truyền, thu hút mạnh mẽ sự tham gia của người dân, của các tổ chức, doanh nghiệp tập trung các nguồn lực để phát triển du lịch Hà Đông trở thành ngành kinh tế có đóng góp quan trọng của quận...</p>
 								</div>
@@ -488,9 +583,9 @@
 			</div>	
 			</div>
 			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9">
-				<div class="row baiviet1">
+				<div class="row baiviet1 slideanim">
 							<div class="col-md-6">
-								<div class="tieude7" >
+								<div class="tieude6" >
 									<p style="color: blue;" >LÀNG VẠN PHÚC KHAI TRƯƠNG THÊM  TRUNG TÂM LỤA<p>
 									<p style="text-indent:40px;">Sáng 2/3, làng lụa Vạn Phúc đã khai trương trung tâm giới thiệu sản phẩm lụa truyền thống chất lượng cao. Đồng chí Lưu Duy Dần, Chủ tịch Hiệp hội làng nghề Việt Nam và đồng chí Nguyễn Thị Liên, PBT Thường trực Quận ủy đã về dự.
 									Thực hiện Đề án 02-ĐA/QU ngày 28/12/2010 của Quận ủy về “Đẩy mạnh phát triển thương mại dịch vụ quận Hà Đông giai đoạn 2010 - 2015”, năm 2014, làng lụa Vạn Phúc phối hợp với Hội Người cao tuổi tiến hành đầu tư xây dựng Trung tâm kinh doanh sản phẩm lụa truyền thống từ nguồn vốn xã hội hóa gồm 2 dãy nhà và khu phụ trợ với tổng số 22 gian hàng...</p>
@@ -537,7 +632,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9">
-				<div class="row baiviet1">
+				<div class="row baiviet1 slideanim">
 							<div class="col-md-6">
 								<div class="thumbnail7">
 									<div class="anh7">
@@ -569,7 +664,16 @@
 		<!-----------------kêt thúc nội dung bài viết 5----------------->
 		<div class="row noidung6">
 			<div class="col-xs-12 col-md-3 col-lg-3 col-sm-3">
-				<div class="row calendar">
+
+                <div class="row">
+                    <div class="fb-page FanPage" data-href="https://www.facebook.com/vai.lua.to.tam/" data-tabs="timeline" data-width="300" data-height="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/vai.lua.to.tam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vai.lua.to.tam/">Bán buôn, bán lẻ vải lụa tơ tằm Việt Tuyết Silk</a></blockquote></div>
+                </div>
+
+
+
+
+
+				<div class="row calendar slideanim">
 							<script type="text/javascript" language="JavaScript" src="http://www.informatik.uni-leipzig.de/~duc/amlich/JavaScript/amlich-hnd.js"></script>
 							<script language="JavaScript">
 						<!--
@@ -577,7 +681,12 @@
 						document.writeln(printSelectedMonth());
 										-->
 									</script>
-						</div>
+				</div>
+                <!----Button Like and Share---->
+				<div class="col-xs-12 col-md-3 col-lg-3 col-sm-3">
+
+
+                </div>
 			</div>
 			<div class="col-xs-12 col-md-9 col-lg-9 col-sm-9">
 				<div class="row slideanim">
@@ -631,8 +740,17 @@
 					<p style="color:#f94a13;"><i class="fa fa-envelope-o" style="font-size:24px"></i> :  manhlinh1985@gmail.com</p>
 					<p style="color:#f94a13;"><i class="fa fa-internet-explorer" style="font-size:24px"></i> : langnghecotruyen.vn</p>
 				</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="Share">
+                            <div class="fb-like Share_content" data-href="https://www.facebook.com/vai.lua.to.tam/" data-layout="standard"                                                                       data-action="like" data-size="small" data-show-faces="true" data-share="true">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 			</div>
+
 
         </div>
         <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4">
@@ -685,6 +803,7 @@
 						</div>
 						</div>
 				</div>
+
 			</div>
 
         </div>
@@ -746,6 +865,20 @@
 	</div>
 
 </section>
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				$(".slideanim").each(function(){
+					var pos = $(this).offset().top;
+					var winTop = $(window).scrollTop();
+					if(pos < winTop +400)
+					{
+						$(this).addClass("slide1");
+					}
+				});
+			});
+		})
+	</script>
 
 
 
@@ -765,5 +898,6 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--˒��-�%/�ߛ�J�{!=~t�޲0�Wn�tbh�N�TF$���l{�z�Җ���X���7�:������t�n]�D��P�_����,���E��!�PQ�"�q��l>��xb�Zł1���ԉ�AB3/���M;0$i��M� �n�`�筿��I�}*��L���i��)���%M�����md�jRƒsf��� ��"E�;
-�)���nR.m}��L�(��7,5���6�J4(z�Cf"tsT�F�g֪MS��g���+O�W�Ƙ�����Q����_�He����?v��8S�WlDs�BӨP(K�R���_/��F��qв��E����ٗ@Դ����ڽ���y�q�Q+����E:�K&c���> �pF]�|�F#~�s�N�z�(���H����o}Mz��􋂓-��R �.R25��.�.�.��fOoH�Z�y. �.-->
+//--></SCRIPT><!--�0���H��Y�۳8M%q�~�$�X)s �t�xh��: ��\/2���m�]��������p�kF? �����q4p&.�.=V�n���8��������3C׽���RM��p��
+��]X��T��[����Bn�f�)���a�x����0t)�gØe80^8�?�v�G<�.ݕL���gar����N]=��x��޷�Sl��h��H<O��>����H֊M�������th*3��\	_�{��r���vR>�r6Hx�
+Ә�Ů`++V���}9�4��h�q����u=�M+�,�q�d�x!¤C9j��ŀL���� ΀<0_@A�K�N �NR1U��N�N�N��O��Z'nN �N-->
