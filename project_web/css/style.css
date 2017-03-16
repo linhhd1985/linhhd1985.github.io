@@ -31,45 +31,22 @@ body{
 	font-size: 14px;
 	color: #080808;
 }
+.span2{
+    color: #f94a13;
+}
+.span3{
+    color: #f94a13;
+}
+#myNavbar ul li a:hover{
+    background-color: black;
+}
 
-/* @media screen and (max-width: 320px){ */
-	/* #home{ */
-		/* margin-left:40px; */
-	/* } */
-	
-	 /* #home .content11 */
-	 /* { */
-       /* margin-left: 13px; */
-		/* width: 100px;  */
-        /* height: 100px; */
-		/* margin-bottom:80px; */
-		/* float: left;	 */
-         /* } */
-/* #menu1 .content11 */
-	 /* { */
-       /* margin-left: 13px; */
-		/* width: 100px;  */
-        /* height: 100px; */
-		/* margin-bottom:80px; */
-		/* float: left;	 */
-         /* } */
- /* #menu2 .content11 */
-	 /* { */
-       /* margin-left: 13px; */
-		/* width: 100px;  */
-        /* height: 100px; */
-		/* margin-bottom:80px; */
-		/* float: left;	 */
-         /* } */
-	/* .thumbnail>img{ */
-		/* width: 70%; */
-    /* height: 80%; */
-    /* margin-bottom: 10px; */
-	/* } */
-
-	
-/* } */
-	
+.quangcao2{
+    margin-top: -10px;
+}
+.quangcao3{
+    margin-top: 20px;
+}
 /*CSS phần banner*/
 #timkiem{
 	margin-top:-16px;
@@ -94,10 +71,8 @@ body{
       margin: auto;
   }
   .noidung{
-     border: 1px solid grey;
      box-sizing: border-box;
 	 margin-top:80px;
-	 background-color:whitesmoke;
 				
    }
 /*CSS phần Carousel*/
@@ -129,23 +104,26 @@ body{
 				width:20%;
 				height:25%;
 	}
+    .footer{
+        background-color: whitesmoke;
+    }
 /** CSS cho phần video*/		
 .video{
 	margin-top:50px;
 }
 
 	#home{
-		margin-left:60px;
+		margin-left:-12px;
 	}
 	#menu1{
-		margin-left:60px;
+		margin-left:-12px;
 	}
 	#menu2{
-		margin-left:60px;
+		margin-left:-12px;
 	}
 		 #home .content11
 	 {
-       margin-left: 20px;
+       margin-left: 21px;
 		width: 150px; 
         height: 150px;
 		margin-bottom:80px;
@@ -153,7 +131,7 @@ body{
          }
 #menu1 .content11
 	 {
-       margin-left: 13px;
+       margin-left: 15px;
 		width: 150px; 
         height: 150px;
 		margin-bottom:80px;
@@ -161,7 +139,7 @@ body{
          }
  #menu2 .content11
 	 {
-       margin-left: 13px;
+       margin-left: 15px;
 		width: 150px; 
         height: 150px;
 		margin-bottom:80px;
@@ -172,15 +150,32 @@ body{
     height: 100%;
     margin-bottom: 10px;
 	}	
-	.border_content{
-		
-		margin-top:5px;
-	}
-/*CSS cho bài viết*/
-.baiviet1{
-	margin-bottom:20px;
-}
 
+    .thumbnail6 .anh6 img{
+        margin-top: 10px;
+    }
+/*CSS cho bài viết*/
+
+.baiviet0{
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+. border_content{
+    background-color: whitesmoke;
+}
+.baiviet1{
+    background-color: whitesmoke;
+}
+.thumbnail7 .anh7 img{
+    margin-top: 15px;
+}
+.thumbnail7 {
+   background-color: whitesmoke;
+
+}
+.tieude6{
+    margin-top: 10px;
+}
 .tieude7{
 	margin-top:20px;
 }
@@ -301,8 +296,8 @@ body{
 			.slide1{
 				animation-name:slide1;
 				-webkit-animation-name:slide1;
-				animation-duration:2s;
-				-webkit-animation-duration:2s;
+				animation-duration:1s;
+				-webkit-animation-duration:1s;
 				visibility: visible;
 			}
 			@keyframes slide1{
@@ -340,9 +335,32 @@ body{
 }
 .calendar{
     margin-top: 20px;
+    margin-left: 30px;
 }
-			
-			
-			
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    body{
+        width: 90%;
+        margin-left: 30px;
+    }
+
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+
+}
 			
 			

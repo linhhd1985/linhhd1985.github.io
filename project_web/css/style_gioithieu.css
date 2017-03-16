@@ -1,15 +1,40 @@
-@media screen and (min-width: 769px){
+
 .thumbnail_gt{
 padding:0 0 15px 0;
-background-color: whitesmoke;
 margin-left: 20px;
-margin-top: 42px;
+margin-top: 20px;
 }
-.thumbnail_gt anh6{
-margin-left: 0px;
+.thumbnail_gt .anh6{
 width:100%;
+    margin-top: 20px;
+}
+.thumbnail_gt .anh6 img{
+
+    margin-top: -20px;
 }
 .gioithieu{
 	margin-top:4px;
 }
+#myNavbar_gioithieu{
+    margin-top: -4px;
+}
+.tieude1{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.tieude2{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.noidung{
+    width: 95%;
+}
+.baiviet1{
+    margin-bottom: 20px;
+    margin-left: 27px;
+}
+@media screen and (max-width: 320px ){
+    body {
+        width: 85%;
+        margin-left: 30px;}
 }
