@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="844" column="87" lean-forward="false" selection-start-line="844" selection-start-column="87" selection-end-line="844" selection-end-column="104" />
+            <state relative-caret-position="343">
+              <caret line="1050" column="120" lean-forward="false" selection-start-line="1050" selection-start-column="120" selection-end-line="1050" selection-end-column="120" />
               <folding>
                 <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,63 +46,7 @@
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1490242411186" expanded="true" signature="796026:796482" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tintuc8.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tintuc8.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#8;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1490244781542" expanded="true" signature="2257279:2257692" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tintuc7.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tintuc7.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6664">
-              <caret line="392" column="120" lean-forward="false" selection-start-line="392" selection-start-column="120" selection-end-line="392" selection-end-column="120" />
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#9;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1490240358974" expanded="true" signature="2253429:2253842" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tintuc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tintuc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4692">
-              <caret line="276" column="71" lean-forward="false" selection-start-line="276" selection-start-column="71" selection-end-line="276" selection-end-column="71" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#a#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chitietdulich.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chitietdulich.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="156" column="24" lean-forward="false" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,20 +54,49 @@
       <file leaf-file-name="chitietsp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chitietsp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="180" column="37" lean-forward="false" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="240" column="20" lean-forward="false" selection-start-line="240" selection-start-column="20" selection-end-line="252" selection-end-column="26" />
               <folding>
-                <marker date="1490245730349" expanded="false" signature="9753:9763" ph="..." />
+                <marker date="1490255319284" expanded="false" signature="9753:9763" ph="..." />
+                <marker date="1490255319284" expanded="true" signature="1137059:1137385" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_chitietSP.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style_chitietSP.css">
+      <file leaf-file-name="chitietdulich.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chitietdulich.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="321">
+              <caret line="475" column="33" lean-forward="true" selection-start-line="475" selection-start-column="33" selection-end-line="475" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style_chitietdulich.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style_chitietdulich.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style_trangdulich.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style_trangdulich.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -132,7 +105,7 @@
       <file leaf-file-name="dulich.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dulich.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="2227">
               <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="143" selection-end-column="22" />
               <folding />
             </state>
@@ -208,7 +181,6 @@
         <option value="$PROJECT_DIR$/tintuc4.html" />
         <option value="$PROJECT_DIR$/tintuc5.html" />
         <option value="$PROJECT_DIR$/tintuc6.html" />
-        <option value="$PROJECT_DIR$/css/style_trangdulich.css" />
         <option value="$PROJECT_DIR$/dulich.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/style_lienhe.css" />
@@ -216,14 +188,16 @@
         <option value="$PROJECT_DIR$/sanpham.html" />
         <option value="$PROJECT_DIR$/css/style_sanpham.css" />
         <option value="$PROJECT_DIR$/tintuc.html" />
-        <option value="$PROJECT_DIR$/css/style_dulich.css" />
-        <option value="$PROJECT_DIR$/chitietdulich.html" />
         <option value="$PROJECT_DIR$/gioithieu.html" />
         <option value="$PROJECT_DIR$/tintuc7.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/tintuc8.html" />
-        <option value="$PROJECT_DIR$/chitietsp.html" />
         <option value="$PROJECT_DIR$/css/style_chitietSP.css" />
+        <option value="$PROJECT_DIR$/css/style_trangdulich.css" />
+        <option value="$PROJECT_DIR$/css/style_dulich.css" />
+        <option value="$PROJECT_DIR$/chitietsp.html" />
+        <option value="$PROJECT_DIR$/css/style_chitietdulich.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/chitietdulich.html" />
       </list>
     </option>
   </component>
@@ -271,6 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,8 +289,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,11 +472,13 @@
       <workItem from="1490196777375" duration="4828000" />
       <workItem from="1490234920022" duration="8597000" />
       <workItem from="1490244326224" duration="1951000" />
+      <workItem from="1490252923392" duration="1061000" />
+      <workItem from="1490254326778" duration="4693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252018000" />
+    <option name="totallyTimeSpent" value="257772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,8 +490,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -550,7 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index_1.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -664,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_trangdulich.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style_lienhe.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -707,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_dulich.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tintuc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4692">
@@ -728,14 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4930">
           <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,20 +726,77 @@
         <state relative-caret-position="6664">
           <caret line="392" column="120" lean-forward="false" selection-start-line="392" selection-start-column="120" selection-end-line="392" selection-end-column="120" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#9;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1490240358974" expanded="true" signature="2253429:2253842" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tintuc8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <marker date="1490244781542" expanded="true" signature="2257279:2257692" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dulich.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="143" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_chitietSP.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_trangdulich.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_dulich.css" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chitietsp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="240" column="20" lean-forward="false" selection-start-line="240" selection-start-column="20" selection-end-line="252" selection-end-column="26" />
+          <folding>
+            <marker date="1490255319284" expanded="false" signature="9753:9763" ph="..." />
+            <marker date="1490255319284" expanded="true" signature="1137059:1137385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_chitietdulich.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="844" column="87" lean-forward="false" selection-start-line="844" selection-start-column="87" selection-end-line="844" selection-end-column="104" />
+        <state relative-caret-position="343">
+          <caret line="1050" column="120" lean-forward="false" selection-start-line="1050" selection-start-column="120" selection-end-line="1050" selection-end-column="120" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -803,56 +812,23 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1490242411186" expanded="true" signature="796026:796482" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tintuc8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#8;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1490244781542" expanded="true" signature="2257279:2257692" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chitietdulich.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="156" column="24" lean-forward="false" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dulich.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="143" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chitietsp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="180" column="37" lean-forward="false" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+        <state relative-caret-position="321">
+          <caret line="475" column="33" lean-forward="true" selection-start-line="475" selection-start-column="33" selection-end-line="475" selection-end-column="33" />
           <folding>
-            <marker date="1490245730349" expanded="false" signature="9753:9763" ph="..." />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_chitietSP.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
