@@ -42,15 +42,28 @@ body{
 }
 
 .quangcao2{
-    margin-top: -10px;
+    background-color: #f94a13;
+    height: auto;
+    border-radius: 10px;
+  margin-top: 1px;
 }
 .quangcao3{
     margin-top: 20px;
+    background-color: #f94a13;
+    height: auto;
+    border-radius: 10px;
+}
+.quangcao1{
+  background-color: #f94a13;
+  height: auto;
+    border-radius: 10px;
 }
 /*CSS phần banner*/
 #timkiem{
-	margin-top:-16px;
+    margin-top: -18px;
+    margin-bottom: 6px;
 }
+
 .banner_gioithieu{
 	margin-top:20px;
 }
@@ -60,9 +73,11 @@ body{
 /*CSS phần menu chính*/
 .navbar-inverse{
                 background-color: red;
+
             }
 .navbar-inverse li a{
 	color:white;
+    padding-top:15px;
 }		
 /*CSS phần Carousel*/
 	 .carousel-inner > .item > img,
@@ -72,28 +87,53 @@ body{
   }
   .noidung{
      box-sizing: border-box;
-	 margin-top:80px;
+	 margin-top:40px;
 				
    }
+
 /*CSS phần Carousel*/
 /*CSS cho phần nội dung và sản phẩm*/
 .noidung1{
-	margin-top:30px;
+	margin-top:20px;
 }
- 	
+#myNavbar1 li a{
+    margin-top: 3px
+}
   #myNavbar2{
 	  margin-top:3px;
 	  background-color:red;
+      border-radius: 10px;
+  }
+  #myNavbar2 {
+      list-style-type: square;
+      color: white;
   }
   #myNavbar2 >li>a{
 	  color:white;
   }
+
  #myNavbar2 li{
 	    margin-bottom: 0px;
     padding-bottom: 10px;
     padding-top: 14px;
  }
-  
+#myNavbar22{
+    margin-top:3px;
+    background-color:red;
+    border-radius: 10px;
+    width: 276px;
+    margin-left: 11px;
+    list-style-type: square;
+    color: white;
+}
+#myNavbar22 li a{
+    color:white;
+    text-decoration: none;
+}
+#myNavbar22 li{
+    padding-top:10px;
+    padding-bottom: 15px;
+}
   /*Css cho phần footer*/
   .lib_img img{
 	float:left;
@@ -104,12 +144,47 @@ body{
 				width:20%;
 				height:25%;
 	}
+.anh_small_dulich img{
+    margin-left:15px;
+    margin-top:10px;
+
+}
+.thumbnail_small_dulich img{
+    width:80%;
+    height:80%;
+
+}
+.thumbnail_small_dulich{
+    margin-left: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+.dulich{
+    margin-left: -48px;
+}
+.dulich1{
+    margin-left: 4px;
+    text-indent: 20px;
+    margin-top: -23px;
+}
+.diadiem{
+    color: #f94a13;
+}
     .footer{
         background-color: whitesmoke;
     }
+    /*CSS cho thẻ hr*/
+hr{
+    color: red;
+    background: red;
+    border: 0;
+    height: 1px;
+}
 /** CSS cho phần video*/		
 .video{
 	margin-top:50px;
+    margin-left: -50px;
 }
 
 	#home{
@@ -159,19 +234,52 @@ body{
 .baiviet0{
     margin-bottom: 20px;
     background-color: whitesmoke;
+    margin-top: 30px;
 }
+
 . border_content{
     background-color: whitesmoke;
+    border-radius: 10px;
 }
-.baiviet1{
+.baiviet1 {
     background-color: whitesmoke;
+    border-radius: 10px;
 }
+.baiviet0{
+    border-radius: 10px;
+}
+
 .thumbnail7 .anh7 img{
-    margin-top: 15px;
+    margin-top: 0px;
 }
 .thumbnail7 {
    background-color: whitesmoke;
+    border-radius: 10px;
 
+}
+.thumbnail9{
+  margin-left: -14px;
+margin-top: 20px;
+background-color: whitesmoke;
+    border-radius: 10px;
+}
+.thumbnail10{
+  margin-left: -14px;
+margin-top: 20px;
+background-color: whitesmoke;
+    border-radius: 10px;
+}
+.thumbnail111{
+  margin-left: -14px;
+margin-top: 20px;
+background-color: whitesmoke;
+    border-radius: 10px;
+}
+.thumbnail12{
+    margin-left: -14px;
+    margin-top: 20px;
+background-color: whitesmoke;
+    border-radius: 10px;
 }
 .tieude6{
     margin-top: 10px;
@@ -184,6 +292,7 @@ body{
 	width:70%;
 	height:70%;
 }
+
 .tieude6_small{
 	margin-left:-50px;
 }
@@ -191,9 +300,13 @@ body{
 
 .myNav2{
 	margin-left:-27px;
+
 }
 .myNav2 li a{
 	text-decoration:none;
+}
+.danhmuc{
+    color:blue;
 }
 /****** LOGIN MODAL ******/
 .loginmodal-container {
@@ -303,21 +416,21 @@ body{
 			@keyframes slide1{
 				0% {
 					opacity:0;
-					transform: translateY(70%);
+					transform: translateX(70%);
 				}
 				100%{
 					opacity:1;
-					transform: translateY(0%);
+					transform: translateX(0%);
 				}
 			}
 			@-webkit-keyframes slide1{
 				0% {
 					opacity:0;
-					-webkit-transform: translateY(70%);
+					-webkit-transform: translateX(70%);
 				}
 				100%{
 					opacity:1;
-					-webkit-transform: translateY(0%);
+					-webkit-transform: translateX(0%);
 				}
 			}
 					
@@ -330,8 +443,8 @@ body{
     width: 100px;
 }
 .FanPage{
-    margin-left: -28px;
-    margin-top: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .calendar{
     margin-top: 20px;
@@ -352,9 +465,36 @@ body{
 }
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px){
-    body{
-        width: 90%;
+    body {
+        width: 85%;
         margin-left: 30px;
+    }
+
+    .banner img {
+        margin-left: 80px;
+    }
+
+    .banner_gioithieu1 img {
+        margin-left: 60px;
+    }
+
+    .banner_gioithieu img {
+        margin-left: 0px;
+    }
+
+    .banner_gioithieu1 {
+        display: none;
+    }
+
+    .btn_search {
+        margin-left: 92px;
+        margin-top: 5px;
+    }
+
+    .navbar-inverse {
+        background-color: red;
+        width: 129%;
+        margin-left: -42px;
     }
 
 }
