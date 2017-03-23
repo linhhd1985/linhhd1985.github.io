@@ -1,6 +1,6 @@
 
 .thumbnail_gt{
-padding:0 0 15px 0;
+
 margin-left: 20px;
 margin-top: 20px;
 }
@@ -20,21 +20,36 @@ width:100%;
 }
 .tieude1{
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 .tieude2{
     margin-top: 20px;
     margin-bottom: -20px;
 }
-.noidung{
-    width: 95%;
-}
+
 .baiviet1{
     margin-bottom: 20px;
     margin-left: 27px;
 }
+#myNavbar_gioithieu{
+    margin-top:70px;
+    background-color:red;
+    border-radius: 10px;
+}
+#myNavbar_gioithieu li a{
+    color:white;
+    text-decoration: none;
+}
+#myNavbar_gioithieu li{
+     padding-top:10px;
+     padding-bottom: 15px;
+ }
+.FanPage_gioithieu{
+    margin-left: 15px;
+}
 @media screen and (max-width: 320px ){
     body {
-        width: 85%;
-        margin-left: 30px;}
+        width:82%;
+        margin-left: 30px;
+    }
 }
