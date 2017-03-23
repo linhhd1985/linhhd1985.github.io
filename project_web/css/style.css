@@ -42,28 +42,15 @@ body{
 }
 
 .quangcao2{
-    background-color: #f94a13;
-    height: auto;
-    border-radius: 10px;
-  margin-top: 1px;
+    margin-top: -10px;
 }
 .quangcao3{
     margin-top: 20px;
-    background-color: #f94a13;
-    height: auto;
-    border-radius: 10px;
-}
-.quangcao1{
-  background-color: #f94a13;
-  height: auto;
-    border-radius: 10px;
 }
 /*CSS phần banner*/
 #timkiem{
-    margin-top: -18px;
-    margin-bottom: 6px;
+	margin-top:-16px;
 }
-
 .banner_gioithieu{
 	margin-top:20px;
 }
@@ -73,11 +60,9 @@ body{
 /*CSS phần menu chính*/
 .navbar-inverse{
                 background-color: red;
-
             }
 .navbar-inverse li a{
 	color:white;
-    padding-top:15px;
 }		
 /*CSS phần Carousel*/
 	 .carousel-inner > .item > img,
@@ -87,53 +72,28 @@ body{
   }
   .noidung{
      box-sizing: border-box;
-	 margin-top:40px;
+	 margin-top:80px;
 				
    }
-
 /*CSS phần Carousel*/
 /*CSS cho phần nội dung và sản phẩm*/
 .noidung1{
-	margin-top:20px;
+	margin-top:30px;
 }
-#myNavbar1 li a{
-    margin-top: 3px
-}
+ 	
   #myNavbar2{
 	  margin-top:3px;
 	  background-color:red;
-      border-radius: 10px;
-  }
-  #myNavbar2 {
-      list-style-type: square;
-      color: white;
   }
   #myNavbar2 >li>a{
 	  color:white;
   }
-
  #myNavbar2 li{
 	    margin-bottom: 0px;
     padding-bottom: 10px;
     padding-top: 14px;
  }
-#myNavbar22{
-    margin-top:3px;
-    background-color:red;
-    border-radius: 10px;
-    width: 276px;
-    margin-left: 11px;
-    list-style-type: square;
-    color: white;
-}
-#myNavbar22 li a{
-    color:white;
-    text-decoration: none;
-}
-#myNavbar22 li{
-    padding-top:10px;
-    padding-bottom: 15px;
-}
+  
   /*Css cho phần footer*/
   .lib_img img{
 	float:left;
@@ -144,47 +104,12 @@ body{
 				width:20%;
 				height:25%;
 	}
-.anh_small_dulich img{
-    margin-left:15px;
-    margin-top:10px;
-
-}
-.thumbnail_small_dulich img{
-    width:80%;
-    height:80%;
-
-}
-.thumbnail_small_dulich{
-    margin-left: 30px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-
-}
-.dulich{
-    margin-left: -48px;
-}
-.dulich1{
-    margin-left: 4px;
-    text-indent: 20px;
-    margin-top: -23px;
-}
-.diadiem{
-    color: #f94a13;
-}
     .footer{
         background-color: whitesmoke;
     }
-    /*CSS cho thẻ hr*/
-hr{
-    color: red;
-    background: red;
-    border: 0;
-    height: 1px;
-}
 /** CSS cho phần video*/		
 .video{
 	margin-top:50px;
-    margin-left: -50px;
 }
 
 	#home{
@@ -234,52 +159,19 @@ hr{
 .baiviet0{
     margin-bottom: 20px;
     background-color: whitesmoke;
-    margin-top: 30px;
 }
-
 . border_content{
     background-color: whitesmoke;
-    border-radius: 10px;
 }
-.baiviet1 {
+.baiviet1{
     background-color: whitesmoke;
-    border-radius: 10px;
 }
-.baiviet0{
-    border-radius: 10px;
-}
-
 .thumbnail7 .anh7 img{
-    margin-top: 0px;
+    margin-top: 15px;
 }
 .thumbnail7 {
    background-color: whitesmoke;
-    border-radius: 10px;
 
-}
-.thumbnail9{
-  margin-left: -14px;
-margin-top: 20px;
-background-color: whitesmoke;
-    border-radius: 10px;
-}
-.thumbnail10{
-  margin-left: -14px;
-margin-top: 20px;
-background-color: whitesmoke;
-    border-radius: 10px;
-}
-.thumbnail111{
-  margin-left: -14px;
-margin-top: 20px;
-background-color: whitesmoke;
-    border-radius: 10px;
-}
-.thumbnail12{
-    margin-left: -14px;
-    margin-top: 20px;
-background-color: whitesmoke;
-    border-radius: 10px;
 }
 .tieude6{
     margin-top: 10px;
@@ -292,7 +184,6 @@ background-color: whitesmoke;
 	width:70%;
 	height:70%;
 }
-
 .tieude6_small{
 	margin-left:-50px;
 }
@@ -300,13 +191,9 @@ background-color: whitesmoke;
 
 .myNav2{
 	margin-left:-27px;
-
 }
 .myNav2 li a{
 	text-decoration:none;
-}
-.danhmuc{
-    color:blue;
 }
 /****** LOGIN MODAL ******/
 .loginmodal-container {
@@ -416,21 +303,21 @@ background-color: whitesmoke;
 			@keyframes slide1{
 				0% {
 					opacity:0;
-					transform: translateX(70%);
+					transform: translateY(70%);
 				}
 				100%{
 					opacity:1;
-					transform: translateX(0%);
+					transform: translateY(0%);
 				}
 			}
 			@-webkit-keyframes slide1{
 				0% {
 					opacity:0;
-					-webkit-transform: translateX(70%);
+					-webkit-transform: translateY(70%);
 				}
 				100%{
 					opacity:1;
-					-webkit-transform: translateX(0%);
+					-webkit-transform: translateY(0%);
 				}
 			}
 					
@@ -443,8 +330,8 @@ background-color: whitesmoke;
     width: 100px;
 }
 .FanPage{
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: -28px;
+    margin-top: 0px;
 }
 .calendar{
     margin-top: 20px;
@@ -465,36 +352,9 @@ background-color: whitesmoke;
 }
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px){
-    body {
-        width: 85%;
+    body{
+        width: 90%;
         margin-left: 30px;
-    }
-
-    .banner img {
-        margin-left: 80px;
-    }
-
-    .banner_gioithieu1 img {
-        margin-left: 60px;
-    }
-
-    .banner_gioithieu img {
-        margin-left: 0px;
-    }
-
-    .banner_gioithieu1 {
-        display: none;
-    }
-
-    .btn_search {
-        margin-left: 92px;
-        margin-top: 5px;
-    }
-
-    .navbar-inverse {
-        background-color: red;
-        width: 129%;
-        margin-left: -42px;
     }
 
 }

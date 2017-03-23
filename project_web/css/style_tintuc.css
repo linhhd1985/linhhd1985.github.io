@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 769px){
 .thumbnail_gt{
 padding:0 0 15px 0;
 background-color: whitesmoke;
@@ -17,15 +17,13 @@ width:100%;
                 padding:0 0 15px 0;
                 margin-left: 10px;
 				margin-bottom:60px;
-                background-color: whitesmoke;
-    height:auto;
-    border-radius: 10px;
  
 			}
 .thumbnail_tintuc .anh_tintuc1{
-                width: 100%;
+                width: 75%;
                 height: 100%;
-
+                
+                margin-left: 20px;
             }
 #timkiem_tintuc{
     margin-top: 10px;
@@ -35,15 +33,15 @@ width:100%;
 }
 .tieude_tintuc{
     margin-left: 20px;
-    margin-top: 50px;
 }
-.thumbnail_tintuc1 img{
-    width:70%;
-    height:70%;
+
+
+
+
+
+
 }
-.tieude6_small_tintuc{
-    margin-left:-50px;
-}
+
 
 
 
